@@ -6,9 +6,9 @@ COPY ./themes /opt/keycloak/themes
 ENV KC_BOOTSTRAP_ADMIN_USERNAME=admin
 ENV KC_BOOTSTRAP_ADMIN_PASSWORD=admin123
 
-# Limitar memoria Java
-ENV JAVA_OPTS="-Xms128m -Xmx384m"
+ENV KC_HTTP_ENABLED=true
+ENV KC_HOSTNAME_STRICT=false
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
 
-CMD ["start-dev", "--http-port=8080", "--hostname-strict=false"]
+CMD ["start", "--import-realm", "--optimized"]
