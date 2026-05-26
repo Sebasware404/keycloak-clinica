@@ -11,4 +11,4 @@ ENV JAVA_OPTS="-Xms128m -Xmx384m"
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
 
-CMD ["start-dev", "--import-realm", "--http-port=8080", "--hostname-strict=false"]
+CMD ["start-dev", "--http-port=8080", "--hostname-strict=false"]
