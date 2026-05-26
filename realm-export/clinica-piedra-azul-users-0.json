@@ -1,0 +1,183 @@
+{
+  "realm" : "clinica-piedra-azul",
+  "users" : [ {
+    "id" : "22957265-e09e-46bc-8a2f-b825c7e1c729",
+    "username" : "10100200",
+    "firstName" : "Sebas",
+    "lastName" : "Caicedo",
+    "email" : "sebas@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1778445558173,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "405b725e-409f-4312-8f87-9a549208cc8c",
+      "type" : "password",
+      "createdDate" : 1778445558279,
+      "secretData" : "{\"value\":\"hLUJ9iRFIVsb6UCr8Acdm7dTeQf8AGxkn2GypGz26nE=\",\"salt\":\"IAGUi9cOC3OvSMFnmFz3+Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "PACIENTE", "default-roles-clinica-piedra-azul" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "3c6a2c94-2a2e-4bd7-bece-5bda588c7239",
+    "username" : "1061000222",
+    "firstName" : "Pedro",
+    "lastName" : "Pérez",
+    "email" : "pedro@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1776538726824,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "89022a7b-c2e7-4f6a-a0ab-4dac7f7aa597",
+      "type" : "password",
+      "createdDate" : 1776538726875,
+      "secretData" : "{\"value\":\"jWinoEEojjwRNpdnVHp9D4uZ3lVs6v+5RrUWBaoQ+wg=\",\"salt\":\"KmO//2WUf/ggMGv4XcYk6g==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "PACIENTE", "default-roles-clinica-piedra-azul" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "237ebc9b-5f3b-4ef0-9b6f-734ac6f1246a",
+    "username" : "111222333",
+    "firstName" : "Juliana",
+    "lastName" : "Galvis",
+    "email" : "juli@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1779377998650,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "165969ba-ed8d-4e0b-846c-0573e1356c84",
+      "type" : "password",
+      "createdDate" : 1779377998807,
+      "secretData" : "{\"value\":\"sQ8uBWg12T5mtjwU9GLKxJPrLohHMPU+X5TZJnqJ568=\",\"salt\":\"8o6p2RYtizLfBzKmHtUdyA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "PACIENTE", "default-roles-clinica-piedra-azul" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "456cc29b-8238-4b11-8540-2698636ef55c",
+    "username" : "1234567890",
+    "firstName" : "Aleja",
+    "lastName" : "Pinto",
+    "email" : "aleja@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1776546642911,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "c15fe658-5ae3-427c-b3d1-453c13736d91",
+      "type" : "password",
+      "createdDate" : 1776546642976,
+      "secretData" : "{\"value\":\"dXH9bioC2xxQrEwgxXPHCdoSDc5EcBJ3xJB3OddTzvQ=\",\"salt\":\"tTPRz5AU+tG4qX7Wrh1PJw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "PACIENTE", "default-roles-clinica-piedra-azul" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "e734af5b-fed5-4b05-85fc-67755154223b",
+    "username" : "321321321",
+    "firstName" : "Dana",
+    "lastName" : "Romero",
+    "email" : "danaromero@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1778478373961,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "4952b2de-e724-48ee-8c6a-1a010d598a7b",
+      "type" : "password",
+      "createdDate" : 1778478374190,
+      "secretData" : "{\"value\":\"kARwgON5JPV6Sz8F0vi7IpptsU6mpOHSYBaqPNWXtLA=\",\"salt\":\"hEUUqJkdCI9zTNBk3xwhLw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "PACIENTE", "default-roles-clinica-piedra-azul" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "6abe841e-ccd8-4ce5-8fff-4067e6f1fed9",
+    "username" : "admin",
+    "firstName" : "Super",
+    "lastName" : "Admin",
+    "email" : "admin@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1776438781480,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "08e3071d-11e0-4b7a-aeb6-74360da680f2",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1776438824301,
+      "secretData" : "{\"value\":\"s9qolHbPCviGYKyKQeczHLXYLdFVhOtci3ze6LOKQGQ=\",\"salt\":\"JgMYuDjot4SA3TE4MpYjEg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-clinica-piedra-azul", "ADMIN" ],
+    "clientRoles" : {
+      "frontend-clinica" : [ "ADMIN" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "12c33e12-b04d-4c48-84bd-a9c8044682da",
+    "username" : "especialista",
+    "firstName" : "Especialista",
+    "lastName" : "Agendador",
+    "email" : "especialista@gmail.com",
+    "emailVerified" : true,
+    "enabled" : true,
+    "createdTimestamp" : 1776629343520,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "2ebf3b52-486c-4714-98c3-8fe741587e67",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1776629350330,
+      "secretData" : "{\"value\":\"pa7ESo96g7w3Gg7vxZyzihCVJKPI+PVoyULObjCcAYs=\",\"salt\":\"LZWAAhaAySxvM29f2jNf5w==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-clinica-piedra-azul", "ESPECIALISTA" ],
+    "clientRoles" : {
+      "frontend-clinica" : [ "ESPECIALISTA" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "fdf71934-894a-495d-aadd-99a4eb39544f",
+    "username" : "service-account-backend-admin",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1776465197629,
+    "totp" : false,
+    "serviceAccountClientId" : "backend-admin",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-clinica-piedra-azul" ],
+    "clientRoles" : {
+      "realm-management" : [ "manage-events", "manage-authorization", "manage-clients", "view-events", "manage-realm", "view-clients", "view-users", "create-client", "manage-users", "query-clients" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
