@@ -11,4 +11,4 @@ ENV KC_HOSTNAME_STRICT=false
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
 
-CMD ["start", "--import-realm", "--optimized"]
+CMD ["start", "--import-realm"]
