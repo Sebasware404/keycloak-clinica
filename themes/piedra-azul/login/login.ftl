@@ -13,7 +13,7 @@
                 <div class="absolute top-[-10%] right-[-10%] w-80 h-80 bg-blue-400 rounded-full blur-[120px] opacity-20"></div>
                 
                 <div class="relative z-10">
-                    <a href="http://localhost:4200" class="inline-flex items-center gap-3 px-6 py-3 bg-white/20 hover:bg-white/30 border border-white/40 rounded-2xl backdrop-blur-md transition-all mb-16 group shadow-lg">
+                    <a href="https://agendamiento-citas-rho.vercel.app/home" class="inline-flex items-center gap-3 px-6 py-3 bg-white/20 hover:bg-white/30 border border-white/40 rounded-2xl backdrop-blur-md transition-all mb-16 group shadow-lg">
                         <span class="material-symbols-outlined text-white font-bold">arrow_back</span>
                         <span class="text-xs font-black tracking-widest uppercase text-white">Volver al inicio</span>
                     </a>
@@ -114,7 +114,7 @@
                     <div class="mt-12 pt-10 border-t border-slate-100 text-center">
                         <p class="text-slate-400 font-bold text-sm">
                             ¿No tienes cuenta? 
-                            <a href="http://localhost:4200/registro" class="text-[#1D4ED8] font-black hover:underline ml-2">Regístrate aquí</a>
+                            <a href="https://agendamiento-citas-rho.vercel.app/registro" class="text-[#1D4ED8] font-black hover:underline ml-2">Regístrate aquí</a>
                         </p>
                     </div>
                 </div>
