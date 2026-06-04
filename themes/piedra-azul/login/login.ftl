@@ -50,10 +50,36 @@
             <div class="flex-grow flex items-center justify-center p-6 bg-slate-50 relative">
                 <div class="w-full max-w-[460px] bg-white p-12 rounded-[3.5rem] shadow-[0_32px_64px_-16px_rgba(29,78,216,0.1)] border border-slate-100 relative z-10">
                     
-                    <div class="mb-12 text-center md:text-left">
+                    <div class="mb-8 text-center md:text-left">
                         <h1 class="text-4xl font-black text-slate-800 tracking-tight mb-3">Bienvenid@</h1>
                         <p class="text-slate-400 font-medium">Inicia sesión para gestionar tus citas médicas.</p>
                     </div>
+
+                    <#if message?has_content>
+                        <div class="mb-6 p-5 rounded-3xl border flex items-start gap-4 transition-all animate-fadeIn
+                            <#if message.type = 'error'>bg-red-50/70 border-red-100 text-red-800</#if>
+                            <#if message.type = 'warning'>bg-amber-50/70 border-amber-100 text-amber-800</#if>
+                            <#if message.type = 'success'>bg-emerald-50/70 border-emerald-100 text-emerald-800</#if>">
+                            
+                            <span class="material-symbols-outlined shrink-0 mt-0.5 text-2xl
+                                <#if message.type = 'error'>text-red-500</#if>
+                                <#if message.type = 'warning'>text-amber-500</#if>
+                                <#if message.type = 'success'>text-emerald-500</#if>">
+                                <#if message.type = 'error'>error</#if>
+                                <#if message.type = 'warning'>warning</#if>
+                                <#if message.type = 'success'>check_circle</#if>
+                            </span>
+                            
+                            <div class="flex-1 space-y-1">
+                                <h4 class="text-xs font-black uppercase tracking-widest opacity-80">
+                                    <#if message.type = 'error'>Error de Autenticación</#if>
+                                    <#if message.type = 'warning'>Aviso del Sistema</#if>
+                                    <#if message.type = 'success'>Operación Exitosa</#if>
+                                </h4>
+                                <p class="text-sm font-bold leading-snug">${kcSanitize(message.summary)?no_esc}</p>
+                            </div>
+                        </div>
+                    </#if>
 
                     <form action="${url.loginAction}" method="post" class="space-y-6">
                         <div class="space-y-2 group">
